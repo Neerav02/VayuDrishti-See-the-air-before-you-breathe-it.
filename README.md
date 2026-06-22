@@ -1,10 +1,6 @@
 # 🌫️ VayuDrishti — "See the air before you breathe it"
 
 <p align="center">
-  <img src="frontend/public/favicon.svg" alt="VayuDrishti Logo" width="120" height="120" />
-</p>
-
-<p align="center">
   <b>AI-Powered Urban Air Quality Intelligence for Smart City Interventions</b><br />
   <i>Real-time CPCB NAQI calculation, 72-hour future forecasting, explainable source attribution, and multilingual health advisories.</i>
 </p>

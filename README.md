@@ -1,12 +1,26 @@
-# VayuDrishti — See the Air Before You Breathe It
+# 🌫️ VayuDrishti — "See the air before you breathe it"
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)]()
-[![React](https://img.shields.io/badge/Frontend-React_18-61DAFB.svg)]()
+<p align="center">
+  <img src="frontend/public/favicon.svg" alt="VayuDrishti Logo" width="120" height="120" />
+</p>
 
-**ET AI Hackathon 2026 · Problem Statement 5**  
-*AI-Powered Urban Air Quality Intelligence for Smart City Interventions.*
+<p align="center">
+  <b>AI-Powered Urban Air Quality Intelligence for Smart City Interventions</b><br />
+  <i>Real-time CPCB NAQI calculation, 72-hour future forecasting, explainable source attribution, and multilingual health advisories.</i>
+</p>
+
+<p align="center">
+  <a href="https://vayu-drishti-ochre.vercel.app/"><img src="https://img.shields.io/badge/Live_App-Vercel-61DAFB.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Live App" /></a>
+  <a href="https://github.com/Neerav02/VayuDrishti-See-the-air-before-you-breathe-it."><img src="https://img.shields.io/badge/GitHub-Repository-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" /></a>
+</p>
+
+---
+
+## 🌐 Live Deployments
+
+* **Frontend Dashboard (Vercel)**: [https://vayu-drishti-ochre.vercel.app/](https://vayu-drishti-ochre.vercel.app/)
+* **Backend API Gateway (Render)**: [https://vayudrishti-backend.onrender.com/docs](https://vayudrishti-backend.onrender.com/docs) (Swagger interactive documentation portal)
 
 ---
 
@@ -67,7 +81,9 @@ graph TD
 ```
 VayuDrishti/
 ├── docs/
-│   └── architecture.md             # Detailed architecture and data model documentation
+│   ├── architecture.md             # Detailed architecture and data model documentation
+│   ├── submission_report.md        # Hackathon submission summary text
+│   └── presentation_slides.md      # Outline for presentation slides
 ├── backend/
 │   ├── app/
 │   │   ├── api/                    # FastAPI HTTP Endpoints
@@ -224,7 +240,7 @@ python -m pytest
 * **Build Command**: `npm run build`
 * **Output Directory**: `dist`
 * **Env Variables**:
-  * `VITE_API_URL`: Your deployed FastAPI backend URL (e.g. `https://vayudrishti-api.onrender.com`)
+  * `VITE_API_URL`: Your deployed FastAPI backend URL (e.g. `https://vayudrishti-backend.onrender.com`)
 
 ---
 
